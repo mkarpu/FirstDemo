@@ -4,6 +4,8 @@ public class FirstProgram {
         this.a = a;
         this.b = b;
         this.c = c;
+
+        //
     }
     public int add(int a, int b) {
         return c = a + b;
