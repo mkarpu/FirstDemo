@@ -8,8 +8,12 @@ public class FirstProgram {
     public int add(int a, int b) {
         return c = a + b;
     }
+    public int sub(int a, int b) {
+        return c = a - b;
+    }
     public static void main(String[] args){
         FirstProgram fp = new FirstProgram(5, 5, 5);
+        System.out.println("Sub is : " +fp.sub(10, 5));
         System.out.println("Add is : " +fp.add(5, 5));
     }
 }
